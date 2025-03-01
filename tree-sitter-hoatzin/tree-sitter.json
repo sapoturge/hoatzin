@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "hoatzin",
+      "camelcase": "Hoatzin",
+      "title": "Hoatzin",
+      "scope": "source.hoatzin",
+      "file-types": [
+        ".htzn"
+      ],
+      "injection-regex": "^hoatzin$",
+      "class-name": "TreeSitterHoatzin"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A Rust-inspired language for learning programming language development.",
+    "authors": [
+      {
+        "name": "John Hiatt",
+        "email": "john.william.hiatt@gmail.com",
+        "url": "https://sapoturge.github.io/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/sapoturge/hoatzin"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
